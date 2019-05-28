@@ -16,7 +16,7 @@
 </p>
 
 SSHFS-Win is a minimal port of [SSHFS](https://github.com/libfuse/sshfs) to Windows. Under the hood it uses [Cygwin](https://cygwin.com) for the POSIX environment and [WinFsp](https://github.com/billziss-gh/winfsp) for the FUSE functionality.
-
+**Altered to follow symlinks under ssh. Not tested! **
 ## Installation
 
 - Install the latest version of [WinFsp](https://github.com/billziss-gh/winfsp/releases/latest).
