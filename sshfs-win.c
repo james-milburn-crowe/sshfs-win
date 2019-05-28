@@ -82,6 +82,7 @@ static int do_svc(int argc, char *argv[])
     "-opassword_stdin",                 \
     "-opassword_stdout",                \
     "-orellinks",                       \
+    "-ofollow_symlinks"                 \
     "-ofstypename=SSHFS",               \
     "-oUserKnownHostsFile=/dev/null",   \
     "-oStrictHostKeyChecking=no"
